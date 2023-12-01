@@ -1,0 +1,98 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7eaf6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+ .wrapper{
+    min-height: 20rem;
+    width: 40rem;
+    background-color: #c7f3ff;
+    border-radius: 10px;
+   
+ }
+ .head{
+    margin: 5px 10px;
+ }
+ .para{
+    margin-left: 13px;
+    background-color: rgb(247, 247, 124);
+    padding: 2px 5px;
+    color: rgb(69, 59, 59);
+    font-weight: 600;
+ }
+ .inputSec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+ }
+ .myInput{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 8px;
+    color:#fff ;
+    background-color: black;
+    font-weight: 600;
+    width: 20rem;
+ }
+.add{
+    margin-right: 30px;
+    border: 2px solid lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color:lightskyblue;
+    cursor: pointer;
+}
+.list{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.table{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding: 30px;
+}   
+tbody{
+   text-align: center; 
+   font-weight: 500;
+}
+.heading th{
+   border-bottom: 2px solid black;
+}
+tbody tr td{
+   border-bottom: 1px solid rgb(171, 163, 163);
+   font-weight: 550;
+}
+img{
+   cursor: pointer;
+   mix-blend-mode: multiply;
+}
+
+.complete{
+   background-color: #a2ef44;
+} 
+.task-status.todo{
+   background-color: #fff07a;
+   border: 1px solid black;
+   
+}
+.task-status{
+   width: 90px;
+   padding: 10px;
+   border: 1px solid #045c74;
+   border-radius: 5px;
+   cursor: pointer;
+  
+}
